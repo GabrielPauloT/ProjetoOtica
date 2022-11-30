@@ -40,7 +40,7 @@ export const InputContainer = styled('div', {
   },
 })
 export const Input = styled('input', {
-  color: '#A9A9A9',
+  color: '#BD0202',
   height: '100%',
   width: '100%',
   boxSizing: 'border-box',

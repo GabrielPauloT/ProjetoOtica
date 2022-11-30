@@ -23,7 +23,7 @@ server.post('/auth/singIn', (req, res) => {
       'id': 12,
       'name': 'tess',
       'createdAt': '2022-08-10',
-      'roles': ['user', 'aluno'],
+      'roles': ['gerente', 'medico'],
     })
   }
   return res.status(401).jsonp({ error: 'Unauthorized' })
@@ -31,7 +31,7 @@ server.post('/auth/singIn', (req, res) => {
 server.get('/roles/:id', (req, res) => {
   const { id } = req.params
   if (id === '12') {
-    return res.jsonp(['user', 'aluno'])
+    return res.jsonp(['gerente', 'medico'])
   }
   return res.status(401).jsonp({ error: 'Unauthorized' })
 })
