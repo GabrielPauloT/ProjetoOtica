@@ -53,7 +53,7 @@ export function Login() {
             <Pstyled>Usuario:</Pstyled>
             <InputUncontrolled control={control} erroMessage={errors.email?.message} name="email" placeholder="Email" />
             <Pstyled2>Senha:</Pstyled2>
-            <InputUncontrolled control={control} erroMessage={errors.password?.message} name="password" placeholder="Senha" />
+            <InputUncontrolled control={control} erroMessage={errors.password?.message} name="password" placeholder="Senha" type='password' />
           </InputWrapper>
           <LabelPass onClick={() => alert('Samuel Gay')}>ESQUECEU A SENHA:</LabelPass>
         </WrapperContent>
