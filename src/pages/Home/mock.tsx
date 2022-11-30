@@ -1,6 +1,6 @@
 import { CardsType } from "@otica/components/Cards";
 
-export const listaCard: CardsType = [
+export const listaCard: CardsType[] = [
   {
     id: 1,
     text: 'PACIENTE',
