@@ -51,11 +51,11 @@ export function Login() {
         <WrapperContent>
           <InputWrapper>
             <Pstyled>Usuario:</Pstyled>
-            <InputUncontrolled control={control} erroMessage={errors.email?.message} name="email" placeholder="Email" />
+            <InputUncontrolled control={control} erroMessage={errors.email?.message} name="email" placeholder="Email" type='email' />
             <Pstyled2>Senha:</Pstyled2>
             <InputUncontrolled control={control} erroMessage={errors.password?.message} name="password" placeholder="Senha" type='password' />
           </InputWrapper>
-          <LabelPass onClick={() => alert('Samuel Gay')}>ESQUECEU A SENHA:</LabelPass>
+          <LabelPass onClick={() => alert('Esqueci a senha')}>ESQUECEU A SENHA:</LabelPass>
         </WrapperContent>
         <ButtonWrapper>
           <Button type='submit' onClick={onSubmit}>ENTRAR</Button>

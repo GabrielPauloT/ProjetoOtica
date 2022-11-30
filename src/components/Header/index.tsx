@@ -20,7 +20,7 @@ export function Header({ title }: HeaderProps) {
             <ButtonStyled onClick={() => navigate('/')}>
               <WrapperQuant>
                 <QuantiUp>{''}</QuantiUp>
-                <PQuant>13</PQuant>
+                <PQuant>20</PQuant>
               </WrapperQuant>
             </ButtonStyled>
           </WrapperIconLeft>
