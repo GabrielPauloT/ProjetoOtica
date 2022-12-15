@@ -5,20 +5,20 @@ export const WrapperCards = styled('div', {
   flexDirection: 'column',
   alignItems: 'center',
   justifyContent: 'center',
-  width: '303px',
-  height: '282px',
+  width: '18.9375rem',
+  height: '17.625rem',
   backgroundColor: '#FBFBFB',
-  border: '3px solid #ABABAB',
-  boxShadow: '-2px 4px 20px #393030',
-  borderRadius: '15px',
+  border: '0.1875rem solid #ABABAB',
+  boxShadow: '-0.125rem 0.25rem 1.25rem #393030',
+  borderRadius: '0.9375rem',
   '&:hover': {
-    boxShadow: 'inset -2px 4px 30px #393030',
+    boxShadow: 'inset -0.125rem 0.25rem 1.875rem #393030',
   }
 })
 
 export const WrapperText = styled('div', {
-  fontSize: '36px',
-  lineHeight: '44px',
+  fontSize: '2.25rem',
+  lineHeight: '2.75rem',
   fontWeight: '500',
   color: '#000000',
 })
@@ -28,19 +28,19 @@ export const WrapperIcon = styled('div', {})
 export const Container = styled('div', {
   display: 'flex',
   flexDirection: 'row',
-  gap: '185px',
+  gap: '11.5625rem',
   flexWrap: 'wrap',
   fontFamily: 'Roboto',
   '@xs': {
-    gap: '25px',
+    gap: '1.5625rem',
   },
   '@lg': {
-    gap: '185px',
+    gap: '11.5625rem',
   },
   '@md': {
-    gap: '25px',
+    gap: '1.5625rem',
   },
   '@xl': {
-    gap: '185px',
+    gap: '11.5625rem',
   },
 })

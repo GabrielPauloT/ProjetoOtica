@@ -2,6 +2,7 @@ import { createStitches, PropertyValue } from '@stitches/react'
 import { BreakpointsEnum } from '@otica/@types'
 
 export const colors = {
+  primary: 'rgba(248, 0, 50, 1)',
   primary_100: 'rgba(7, 59, 89, 1)',
   primary_80: 'rgba(7, 59, 89, 0.8)',
   primary_60: 'rgba(7, 59, 89, 0.6)',

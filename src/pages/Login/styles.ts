@@ -5,8 +5,8 @@ export const InputContent = styled('div', {
   justifyContent: 'center',
   alignItems: 'center',
   flexDirection: 'column',
-  boxShadow: '3px 3px 3px 3px rgba(0, 0, 0, 0.5)',
-  borderRadius: '5px 5px 5px 5px',
+  boxShadow: '0.1875rem 0.1875rem 0.1875rem 0.1875rem rgba(0, 0, 0, 0.5)',
+  borderRadius: '0.3125rem 0.3125rem 0.3125rem 0.3125rem',
   width: '38.5625rem',
   height: '36.9375rem',
   fontFamily: 'Roboto',
@@ -16,17 +16,17 @@ export const Pstyled = styled('p', {
   display: 'flex',
   justifyContent: 'flex-start',
   ml: '-27.0625rem',
-  mb: '-13px',
+  mb: '-0.8125rem',
 })
 export const Pstyled2 = styled('p', {
   display: 'flex',
   justifyContent: 'flex-start',
   ml: '-27.4625rem',
-  mb: '-13px',
+  mb: '-0.8125rem',
 })
 
 export const InputWrapper = styled('div', {
-  mt: '80px',
+  mt: '5rem',
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
@@ -47,7 +47,7 @@ export const Input = styled('input', {
 
 export const LabelPass = styled('p', {
   fontFamily: 'Roboto',
-  color: '#BD0202',
+  color: '$primary',
   ml: '1.4375rem',
   fontSize: '0.9375rem',
   lineHeight: '1.125rem',
@@ -80,7 +80,7 @@ export const ButtonWrapper = styled('div', {
 
 export const BannerWrapper = styled('div', {
   display: 'flex',
-  backgroundColor: '#BD0202',
+  backgroundColor: '$primary',
   width: '22.6875rem',
   height: '37.4375rem',
   color: '$white',
@@ -88,7 +88,7 @@ export const BannerWrapper = styled('div', {
   alignItems: 'center',
   flexDirection: 'column',
   fontSize: '1.5625rem',
-  borderRadius: '10px 10px 10px 10px',
+  borderRadius: '0.625rem 0.625rem 0.625rem 0.625rem',
   mr: '-0.125rem'
 })
 

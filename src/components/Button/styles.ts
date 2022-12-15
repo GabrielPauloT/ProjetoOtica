@@ -14,7 +14,7 @@ export const ContainerButton = styled('button', {
   borderRadius: 5,
   borderWidth: 0,
   cursor: 'pointer',
-  backgroundColor: '#BD0202',
+  backgroundColor: '$primary',
   '&:hover': {
     backgroundColor: '$primary_80',
   },
@@ -24,7 +24,7 @@ export const ContainerButton = styled('button', {
   '&:disabled': {
     color: '$base_40',
     backgroundColor: '$base_20',
-    boxShadow: '0 0 0 1px $colors$base_40',
+    boxShadow: '0 0 0 0.0625rem $colors$base_40',
     cursor: 'default',
     pointerEvents: 'none',
     justifyContent: 'center',
@@ -62,18 +62,18 @@ export const ContainerButton = styled('button', {
         color: '$primary_100',
         borderColor: '$primary_100',
         borderWidth: 2,
-        boxShadow: '0 0 0 1px $$mainColor',
+        boxShadow: '0 0 0 0.0625rem $$mainColor',
         backgroundColor: 'transparent',
         borderStyle: 'solid',
         '&:hover': {
-          boxShadow: '0 0 0 0.5px $$mainColor',
+          boxShadow: '0 0 0 0.0313rem $$mainColor',
           color: 'white',
           backgroundColor: '$primary_100',
         },
         '&:active': {
           backgroundColor: '$colors$primary_80',
           borderColor: '$$mainColor',
-          boxShadow: '0 0 0 1px $$mainColor',
+          boxShadow: '0 0 0 0.0625rem $$mainColor',
         },
       },
 
@@ -107,13 +107,13 @@ export const ContainerButton = styled('button', {
         backgroundColor: '$primary_100',
         '&:hover': {
           backgroundColor: '$primary_60',
-          boxShadow: '0 0 0 0.5px $$mainColor',
+          boxShadow: '0 0 0 0.0313rem $$mainColor',
           color: 'white',
         },
         '&:active': {
           backgroundColor: '$primary_100',
           borderColor: '$primary_100',
-          boxShadow: '0 0 0 1px $primary_100',
+          boxShadow: '0 0 0 0.0625rem $primary_100',
         },
       },
       secondary: {

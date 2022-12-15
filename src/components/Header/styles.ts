@@ -1,9 +1,9 @@
 import { styled } from "@otica/configs";
 
 export const Container = styled('div', {
-  backgroundColor: '#DF3434',
+  backgroundColor: '$primary',
   width: '100%',
-  height: '178px',
+  height: '11.125rem',
   fontFamily: 'Roboto',
 })
 
@@ -13,7 +13,7 @@ export const WrapperHeader = styled('div', {
   justifyContent: 'Space-between',
   alignItems: 'center',
   alignContent: 'center',
-  mx: '36px',
+  mx: '2.25rem',
 })
 export const WrapperUsuario = styled('div', {
   display: 'flex',
@@ -27,22 +27,22 @@ export const WrapperLeft = styled('div', {
 export const WrapperIconLeft = styled('div', {
   display: 'flex',
   flexDirection: 'row',
-  gap: '40px',
-  mt: '23px',
+  gap: '2.5rem',
+  mt: '1.4375rem',
 })
 
 export const PQuant = styled('p', {
-  top: '39px',
+  top: '2.4375rem',
   position: 'absolute',
   backgroundColor: 'white',
-  width: '57.5px',
-  height: '47.5px',
-  border: '6px solid #DF3434',
-  borderRadius: '15px',
+  width: '3.5938rem',
+  height: '2.9688rem',
+  border: '0.375rem solid $primary',
+  borderRadius: '0.9375rem',
   fontWeight: 700,
-  color: '#DF3434',
-  fontSize: '38px',
-  lineHeight: '46px',
+  color: '$primary',
+  fontSize: '2.375rem',
+  lineHeight: '2.875rem',
 })
 
 export const WrapperQuant = styled('div', {
@@ -52,17 +52,17 @@ export const WrapperQuant = styled('div', {
 export const QuantiUp = styled('div', {
   display: 'flex',
   backgroundColor: 'white',
-  width: '56.86px',
-  height: '50.5px',
-  borderRadius: '10px',
+  width: '3.5537rem',
+  height: '3.1563rem',
+  borderRadius: '0.625rem',
   fontWeight: 700,
-  color: '#DF3434',
-  fontSize: '38px',
-  lineHeight: '46px',
+  color: '$primary',
+  fontSize: '2.375rem',
+  lineHeight: '2.875rem',
   position: 'absolute',
-  left: '144px',
+  left: '9rem',
   right: '22.68%',
-  top: '32px',
+  top: '2rem',
 })
 
 export const ButtonStyled = styled('button', {
@@ -91,16 +91,16 @@ export const ButtonStyled = styled('button', {
 })
 
 export const PInicio = styled('p', {
-  width: '160px',
-  height: '42px',
+  width: '10rem',
+  height: '2.625rem',
   fontWeight: '900',
-  fontSize: '45px',
-  lineHeight: '54px',
+  fontSize: '2.8125rem',
+  lineHeight: '3.375rem',
 })
 
 export const PUsuario = styled('p', {
   fontWeight: '700',
-  fontSize: '30px',
-  lineHeight: '36px',
+  fontSize: '1.875rem',
+  lineHeight: '2.25rem',
   display: 'flex',
 })

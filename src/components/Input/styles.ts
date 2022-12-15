@@ -4,10 +4,10 @@ export const InputContainer = styled('div', {
   width: '30.625rem',
   height: '2.5rem',
   display: 'inline-flex',
-  borderRadius: '5px',
+  borderRadius: '0.3125rem',
   lineHeight: '150%',
   borderWidth: 1,
-  border: '2px solid #BD0202',
+  border: '0.125rem solid #BD0202',
   borderColor: '#A9A9A9',
   padding: '0rem 0rem 0rem 0.7rem',
   boxSizing: 'border-box',
@@ -52,7 +52,7 @@ export const Input = styled('input', {
   border: 'none',
   '&::placeholder': {
     color: '#A9A9A9',
-    fontSize: '18px',
+    fontSize: '1.125rem',
   },
   '&:focus': {
     outline: 'none',
