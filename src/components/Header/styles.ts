@@ -91,10 +91,10 @@ export const ButtonStyled = styled('button', {
 })
 
 export const PInicio = styled('p', {
-  width: '10rem',
+  width: '100%',
   height: '2.625rem',
   fontWeight: '900',
-  fontSize: '2.8125rem',
+  fontSize: '1.8125rem',
   lineHeight: '3.375rem',
 })
 

@@ -11,6 +11,8 @@ export const Container = styled('div', {
   justifyContent: 'center',
   alignItems: 'center',
   gap: '1.0625rem',
+  bottom: 0,
+  position: 'absolute',
 })
 
 export const Title = styled('p', {

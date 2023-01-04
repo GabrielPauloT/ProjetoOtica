@@ -1,7 +1,7 @@
 import { styled } from '@otica/configs/stiches'
 
 export const InputContainer = styled('div', {
-  width: '30.625rem',
+  width: '100%',
   height: '2.5rem',
   display: 'inline-flex',
   borderRadius: '0.3125rem',

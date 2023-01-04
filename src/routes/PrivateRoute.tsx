@@ -5,7 +5,7 @@ import { AuthService } from '@otica/services'
 import { useUser } from '@otica/stores'
 
 type RoutesPropsData = {
-  role?: string[]
+  role?: number[]
   children: JSX.Element
 }
 
@@ -14,8 +14,8 @@ export const RequiredAuth = ({ role, children }: RoutesPropsData) => {
   const { id } = useUser()
   useEffect(() => {
     async function loadRoles() {
-      const response = await AuthService.getRoles(12)
-      const findRole = response.data.some((r: string) => role?.includes(r))
+      const response = await AuthService.getRoles(1)
+      const findRole = response.data.some((r: string) => role?.includes(Number(r)))
       setHasPermission(findRole)
     }
 

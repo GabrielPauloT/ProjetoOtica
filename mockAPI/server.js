@@ -23,7 +23,7 @@ server.post('/auth/singIn', (req, res) => {
       'id': 12,
       'name': 'tess',
       'createdAt': '2022-08-10',
-      'roles': ['gerente', 'medico'],
+      'roles': [1],
     })
   }
   return res.status(401).jsonp({ error: 'Unauthorized' })

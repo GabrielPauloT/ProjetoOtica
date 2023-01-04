@@ -1,7 +1,6 @@
-import { Login } from '@otica/pages/Login'
+import { HomePage, Login, Users, UsersCreate, UsersEdit } from '@otica/pages'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
-import { HomePage } from '../pages/index'
 import { RequiredAuth } from './PrivateRoute'
 
 export function Router() {
@@ -12,8 +11,32 @@ export function Router() {
         <Route
           path='/'
           element={
-            <RequiredAuth role={['gerente']}>
+            <RequiredAuth role={[1]}>
               <HomePage />
+            </RequiredAuth>
+          }
+        />
+        <Route
+          path='/lista-usuario'
+          element={
+            <RequiredAuth role={[1]}>
+              <Users />
+            </RequiredAuth>
+          }
+        />
+        <Route
+          path='/cadastro-usuario'
+          element={
+            <RequiredAuth role={[1]}>
+              <UsersCreate />
+            </RequiredAuth>
+          }
+        />
+        <Route
+          path='/editar-usuario'
+          element={
+            <RequiredAuth role={[1]}>
+              <UsersEdit />
             </RequiredAuth>
           }
         />

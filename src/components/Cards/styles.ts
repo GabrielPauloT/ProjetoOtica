@@ -1,6 +1,7 @@
 import { styled } from '@otica/configs/stiches'
 
 export const WrapperCards = styled('div', {
+  cursor: 'pointer',
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
@@ -28,6 +29,8 @@ export const WrapperIcon = styled('div', {})
 export const Container = styled('div', {
   display: 'flex',
   flexDirection: 'row',
+  alignItems: 'center',
+  justifyContent: 'center',
   gap: '11.5625rem',
   flexWrap: 'wrap',
   fontFamily: 'Roboto',
